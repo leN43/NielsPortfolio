@@ -4,3 +4,10 @@
 //= require bootstrap-sprockets
 import "@hotwired/turbo-rails"
 import "controllers"
+
+const button = document.getElementById("lecv");
+
+button.addEventListener("click", () => {
+  const pdfPath = "/pdfs/test.pdf";
+  window.open(pdfPath, "_blank");
+});

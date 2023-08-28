@@ -5,19 +5,19 @@
  @import "components/about";
  @import "components/portfolio";
  @import "components/footer";
+ @import "components/buttons";
  body {
-
   background-color: #272121;
   color: beige;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+ }
+h1 , h2 ,h3 {
+  font-family: 'Alegreya', serif;
+  text-transform: uppercase;
   color: #FF4D00;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26 px;
 }
 
 a {
@@ -51,7 +51,6 @@ a:hover {
 }
 
 .box-shadow,
-.card-blog,
 .work-box,
 .service-box,
 .paralax-mf {
@@ -141,7 +140,7 @@ a:hover {
 
 /*--/ Title s /--*/
 .title-s {
-  font-weight: 600;
+  font-weight: 800;
   color: #FF4D00;
   font-size: 1.1rem;
 }

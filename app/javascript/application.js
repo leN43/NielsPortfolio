@@ -8,6 +8,6 @@ import "controllers"
 const button = document.getElementById("lecv");
 
 button.addEventListener("click", () => {
-  const pdfPath = "/pdfs/test.pdf";
+  const pdfPath = "/pdfs/CV_NielsAyigbede.pdf";
   window.open(pdfPath, "_blank");
 });

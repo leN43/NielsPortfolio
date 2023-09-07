@@ -3,8 +3,6 @@ class PagesController < ApplicationController
   end
   def home
   end
-  def conctact
-  end
   def works
   end
 

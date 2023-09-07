@@ -14,6 +14,20 @@ h1 , h2 ,h3 {
   font-family: 'Alegreya', serif;
   text-transform: uppercase;
   color: #FF4D00;
+  animation: glowing 2s ease-in-out infinite;
+  text-shadow: 0 0 10px rgba(255, 77, 0, 0.8);
+}
+
+@keyframes glowing {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 77, 0, 0.8);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 77, 0, 0.8), 0 0 30px rgba(255, 77, 0, 0.6);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 77, 0, 0.8);
+  }
 }
 p {
   font-family: 'Roboto', sans-serif;

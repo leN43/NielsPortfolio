@@ -8,3 +8,14 @@
 .carousel-caption {
   font-size: 30px;
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+{
+  background-color: #FF4D00;
+  font-weight: 700;
+}
+#button-container {
+  display: flex; /* Use flexbox to align buttons horizontally */
+  justify-content: space-between; /* Adjust this as needed (e.g., space-around, center) */
+  margin: 0 5px;
+}
